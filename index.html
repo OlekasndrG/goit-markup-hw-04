@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <title>Студія</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container main-nav">
+      <nav class="main-nav">
+        <!-- логотип-->
+        <a href="./index.html" class="logo">
+          <p><span class="logo-header">Web</span>Studio</p>
+        </a>
+        <!-- навігація -->
+        <ul class="site-nav main-nav list">
+          <li class="item">
+            <a href="./index.html" class="current-link">Студія</a>
+          </li>
+          <li class="item">
+            <a href="./portfolio.html" class="link">Портфоліо</a>
+          </li>
+          <li class="item">
+            <a href="" class="link">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="contacts main-nav list">
+        <li class="item">
+          <!-- <div class="mail"> -->
+
+          <a href="mailto:info@devstudio.com" class="link">
+            <svg viewBox="0 0 100 100" width="16" height="12" class="mail-icon">
+              <use xlink:href="./images/sprite.svg#envelope">
+              </use>
+            </svg>
+            info@devstudio.com</a>
+
+          <!-- </div> -->
+        </li>
+        <li class="item">
+
+          <a href="tel:+380961111111" class="tel">
+            <svg viewBox="0 0 100 100" width="16" height="10" class="mail-icon">
+              <use xlink:href="./images/sprite.svg#smartphone">
+              </use>
+            </svg>
+            +38 096 111 11 11</a>
+        </li>
+      </ul>
+
+    </div>
+  </header>
+  <main>
+    <!-- блок-герой -->
+    <section class="hero overlay">
+      <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+      <button type="button" class="btn">Замовити послугу</button>
+    </section>
+    <!-- переваги -->
+    <section class="section benefits">
+      <div class="container">
+        <h2 class="visually-hidden">переваги</h2>
+        <ul class="benefits list">
+          <li class="item">
+            <div class="benefits-bg">
+            <svg viewBox="0 0 100 100" width="66" height="70" class="benefits-icon">
+              <use xlink:href="./images/sprite.svg#antenna-1">
+              </use>
+            </svg>
+            </div>
+            <h3 class="benefits-list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p>
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
+          </li>
+          <li class="item">
+            <div class="benefits-bg">
+              <svg viewBox="0 0 100 100" width="66" height="70" class="benefits-icon">
+                <use xlink:href="./images/sprite.svg#antenna-1">
+                </use>
+              </svg>
+            </div>
+            <h3 class="benefits-list-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p>
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
+          </li>
+          <li class="item">
+            <div class="benefits-bg">
+              <svg viewBox="0 0 100 100" width="66" height="70" class="benefits-icon">
+                <use xlink:href="./images/sprite.svg#antenna-1">
+                </use>
+              </svg>
+            </div>
+            <h3 class="benefits-list-title">ПЛАНУВАННЯ</h3>
+            <p>
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li class="item">
+            <div class="benefits-bg">
+              <svg viewBox="0 0 100 100" width="66" height="70" class="benefits-icon">
+                <use xlink:href="./images/sprite.svg#antenna-1">
+                </use>
+              </svg>
+            </div>
+            <h3 class="benefits-list-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p>
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Чим займаються -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Чим ми займаємося</h2>
+        <ul class="work list">
+          <li class="item">
+            <img src="./images/whatwedo1.jpg" alt="Людина пише код на планшеті за столом" width="370" />
+          </li>
+          <li class="item">
+            <img src="./images/whatwedo2.jpg"
+              alt="Людина зі смартфоном у руках дивиться на смартфон на екрані ноутбуку " width="370" />
+          </li>
+          <li class="item">
+            <img src="./images/whatwedo3.jpg" alt="Планшет із палітрою кольорів у руках людини" width="370" />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- команда -->
+    <section class="section team">
+      <div class="container">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="team list">
+          <li class="item">
+            <img src="./images/igor-demyanenko.jpg" alt="Портретне фото Ігора Дем'яненко" width="270" />
+            <div class="team-description">
+              <h3 class="team-title">Ігор Дем'яненко</h3>
+              <p lang="en" class="team-position">Product Designer</p>
+            </div>
+            <ul class="team-social list">
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                    <use xlink:href="./images/sprite.svg#instagram">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="social-icon">
+                    <g clip-path="url(#clip0_1_658)">
+                      <path
+                        d="M20 3.79875C19.2563 4.125 18.4637 4.34125 17.6375 4.44625C18.4875 3.93875 19.1363 3.14125 19.4412 2.18C18.6488 2.6525 17.7738 2.98625 16.8412 3.1725C16.0887 2.37125 15.0162 1.875 13.8462 1.875C11.5763 1.875 9.74875 3.7175 9.74875 5.97625C9.74875 6.30125 9.77625 6.61375 9.84375 6.91125C6.435 6.745 3.41875 5.11125 1.3925 2.6225C1.03875 3.23625 0.83125 3.93875 0.83125 4.695C0.83125 6.115 1.5625 7.37375 2.6525 8.1025C1.99375 8.09 1.3475 7.89875 0.8 7.5975C0.8 7.61 0.8 7.62625 0.8 7.6425C0.8 9.635 2.22125 11.29 4.085 11.6712C3.75125 11.7625 3.3875 11.8062 3.01 11.8062C2.7475 11.8062 2.4825 11.7913 2.23375 11.7362C2.765 13.36 4.2725 14.5538 6.065 14.5925C4.67 15.6838 2.89875 16.3412 0.98125 16.3412C0.645 16.3412 0.3225 16.3263 0 16.285C1.81625 17.4563 3.96875 18.125 6.29 18.125C13.835 18.125 17.96 11.875 17.96 6.4575C17.96 6.27625 17.9538 6.10125 17.945 5.9275C18.7588 5.35 19.4425 4.62875 20 3.79875Z" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_658">
+                        <rect width="20" height="20" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <!-- <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                    <use xlink:href="./images/sprite.svg#twitter-1">
+                    </use>
+                  </svg> -->
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                    <use xlink:href="./images/sprite.svg#facebook-1">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                    <use xlink:href="./images/sprite.svg#linkedin-1">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          <li class="item">
+            <img src="./images/olga-repina.jpg" alt="Портретне фото Ольги Рєпіної" width="270" />
+            <div class="team-description">
+              <h3 class="team-title">Ольга Рєпіна</h3>
+              <p lang="en" class="team-position">Frontend Developer</p>
+            </div>
+            <ul class="team-social list">
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                    <use xlink:href="./images/sprite.svg#instagram">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="social-icon">
+                    <g clip-path="url(#clip0_1_658)">
+                      <path
+                        d="M20 3.79875C19.2563 4.125 18.4637 4.34125 17.6375 4.44625C18.4875 3.93875 19.1363 3.14125 19.4412 2.18C18.6488 2.6525 17.7738 2.98625 16.8412 3.1725C16.0887 2.37125 15.0162 1.875 13.8462 1.875C11.5763 1.875 9.74875 3.7175 9.74875 5.97625C9.74875 6.30125 9.77625 6.61375 9.84375 6.91125C6.435 6.745 3.41875 5.11125 1.3925 2.6225C1.03875 3.23625 0.83125 3.93875 0.83125 4.695C0.83125 6.115 1.5625 7.37375 2.6525 8.1025C1.99375 8.09 1.3475 7.89875 0.8 7.5975C0.8 7.61 0.8 7.62625 0.8 7.6425C0.8 9.635 2.22125 11.29 4.085 11.6712C3.75125 11.7625 3.3875 11.8062 3.01 11.8062C2.7475 11.8062 2.4825 11.7913 2.23375 11.7362C2.765 13.36 4.2725 14.5538 6.065 14.5925C4.67 15.6838 2.89875 16.3412 0.98125 16.3412C0.645 16.3412 0.3225 16.3263 0 16.285C1.81625 17.4563 3.96875 18.125 6.29 18.125C13.835 18.125 17.96 11.875 17.96 6.4575C17.96 6.27625 17.9538 6.10125 17.945 5.9275C18.7588 5.35 19.4425 4.62875 20 3.79875Z" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_658">
+                        <rect width="20" height="20" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <!-- <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                              <use xlink:href="./images/sprite.svg#twitter-1">
+                              </use>
+                            </svg> -->
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                    <use xlink:href="./images/sprite.svg#facebook-1">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                    <use xlink:href="./images/sprite.svg#linkedin-1">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <img src="./images/mukola-tarasov.jpg" alt="Портретне фото Миколи Тарасова" width="270" />
+            <div class="team-description">
+              <h3 class="team-title">Микола Тарасов</h3>
+              <p lang="en" class="team-position">Marketing</p>
+            </div>
+            <ul class="team-social list">
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                    <use xlink:href="./images/sprite.svg#instagram">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="social-icon">
+                    <g clip-path="url(#clip0_1_658)">
+                      <path
+                        d="M20 3.79875C19.2563 4.125 18.4637 4.34125 17.6375 4.44625C18.4875 3.93875 19.1363 3.14125 19.4412 2.18C18.6488 2.6525 17.7738 2.98625 16.8412 3.1725C16.0887 2.37125 15.0162 1.875 13.8462 1.875C11.5763 1.875 9.74875 3.7175 9.74875 5.97625C9.74875 6.30125 9.77625 6.61375 9.84375 6.91125C6.435 6.745 3.41875 5.11125 1.3925 2.6225C1.03875 3.23625 0.83125 3.93875 0.83125 4.695C0.83125 6.115 1.5625 7.37375 2.6525 8.1025C1.99375 8.09 1.3475 7.89875 0.8 7.5975C0.8 7.61 0.8 7.62625 0.8 7.6425C0.8 9.635 2.22125 11.29 4.085 11.6712C3.75125 11.7625 3.3875 11.8062 3.01 11.8062C2.7475 11.8062 2.4825 11.7913 2.23375 11.7362C2.765 13.36 4.2725 14.5538 6.065 14.5925C4.67 15.6838 2.89875 16.3412 0.98125 16.3412C0.645 16.3412 0.3225 16.3263 0 16.285C1.81625 17.4563 3.96875 18.125 6.29 18.125C13.835 18.125 17.96 11.875 17.96 6.4575C17.96 6.27625 17.9538 6.10125 17.945 5.9275C18.7588 5.35 19.4425 4.62875 20 3.79875Z" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_658">
+                        <rect width="20" height="20" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <!-- <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                                <use xlink:href="./images/sprite.svg#twitter-1">
+                                </use>
+                              </svg> -->
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                    <use xlink:href="./images/sprite.svg#facebook-1">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                    <use xlink:href="./images/sprite.svg#linkedin-1">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <img src="./images/mukhaylo-ermakov.jpg" alt="Портретне фото Михайла Єрмакова" width="270" />
+            <div class="team-description">
+              <h3 class="team-title">Михайло Єрмаков</h3>
+              <p lang="en" class="team-position">UI Designer</p>
+            </div>
+            <ul class="team-social list">
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                    <use xlink:href="./images/sprite.svg#instagram">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="social-icon">
+                    <g clip-path="url(#clip0_1_658)">
+                      <path
+                        d="M20 3.79875C19.2563 4.125 18.4637 4.34125 17.6375 4.44625C18.4875 3.93875 19.1363 3.14125 19.4412 2.18C18.6488 2.6525 17.7738 2.98625 16.8412 3.1725C16.0887 2.37125 15.0162 1.875 13.8462 1.875C11.5763 1.875 9.74875 3.7175 9.74875 5.97625C9.74875 6.30125 9.77625 6.61375 9.84375 6.91125C6.435 6.745 3.41875 5.11125 1.3925 2.6225C1.03875 3.23625 0.83125 3.93875 0.83125 4.695C0.83125 6.115 1.5625 7.37375 2.6525 8.1025C1.99375 8.09 1.3475 7.89875 0.8 7.5975C0.8 7.61 0.8 7.62625 0.8 7.6425C0.8 9.635 2.22125 11.29 4.085 11.6712C3.75125 11.7625 3.3875 11.8062 3.01 11.8062C2.7475 11.8062 2.4825 11.7913 2.23375 11.7362C2.765 13.36 4.2725 14.5538 6.065 14.5925C4.67 15.6838 2.89875 16.3412 0.98125 16.3412C0.645 16.3412 0.3225 16.3263 0 16.285C1.81625 17.4563 3.96875 18.125 6.29 18.125C13.835 18.125 17.96 11.875 17.96 6.4575C17.96 6.27625 17.9538 6.10125 17.945 5.9275C18.7588 5.35 19.4425 4.62875 20 3.79875Z" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_658">
+                        <rect width="20" height="20" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <!-- <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                                <use xlink:href="./images/sprite.svg#twitter-1">
+                                </use>
+                              </svg> -->
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                    <use xlink:href="./images/sprite.svg#facebook-1">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="social-link link">
+                  <svg viewBox="0 0 100 100" width="20" height="20" class="social-icon">
+                    <use xlink:href="./images/sprite.svg#linkedin-1">
+                    </use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+      </div>
+
+      </ul>
+      </div>
+    </section>
+    <section class="section clients">
+      <h2 class="section-title">Постійні клієнти</h2>
+      <ul class="clients-list list">
+        <li>
+          <a href="">
+
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+  <!-- адреса -->
+  <footer class="footer">
+    <div class="container">
+      <a href="./index.html" class="logo">
+        <p><span class="logo-footer">Web</span>Studio</p>
+      </a>
+      <address class="adress">
+        <ul class="list">
+          <li>
+            <a href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.426584,30.5339011,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383859?hl=ru"
+              target="_blank" rel="noreferrer noopener" class="physical-adress">м. Київ, пр-т Лесі Українки, 26</a>
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          </li>
+          <li><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
+        </ul>
+      </address>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
